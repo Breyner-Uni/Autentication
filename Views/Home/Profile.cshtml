@@ -1,0 +1,36 @@
+﻿@model SampleMvcApp.ViewModels.UserProfile
+@{
+    ViewBag.Title = "Editar Perfil";
+}
+
+<h2>Editar Perfil</h2>
+
+<form asp-action="updateprofile" asp-controller="Usuario" method="post">
+    <div>
+        <label>Tipo Documento:</label>
+        <input asp-for="TipoDocumento" class="form-control" />
+    </div>
+    <div>
+        <label>Número Documento:</label>
+        <input asp-for="NumeroDocumento" class="form-control" />
+    </div>
+    <div>
+        <label>Dirección:</label>
+        <input asp-for="Direccion" class="form-control" />
+    </div>
+    <div>
+        <label>Teléfono:</label>
+        <input asp-for="Telefono" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Guardar cambios</button>
+</form>
+
+@if (ViewBag.Success != null)
+{
+    <p style="color:green">Perfil actualizado correctamente</p>
+}
+@if (ViewBag.Error != null)
+{
+    <p style="color:red">@ViewBag.Error</p>
+}
+   
