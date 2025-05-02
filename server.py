@@ -4,10 +4,12 @@
 import json
 from os import environ as env
 from urllib.parse import quote_plus, urlencode
+from UsuarioDTO import Usuario
+from UpdateProfile import UpdateProfileUser
 
 from authlib.integrations.flask_client import OAuth
 from dotenv import find_dotenv, load_dotenv
-from flask import Flask, redirect, render_template, session, url_for
+from flask import Flask, redirect, render_template, session, url_for,jsonify,request
 
 ENV_FILE = find_dotenv()
 if ENV_FILE:
@@ -69,6 +71,30 @@ def logout():
             quote_via=quote_plus,
         )
     )
+    
+@app.route("/updateprofile", methods=["PATCH"])
+def update_profile():
+    if 'user' not in session:
+        return jsonify({'error': 'No autenticado'}), 401
+    
+    try:
+        data=request.get_json()
+        user_id=session['user']['userinfo']['sub']
+        
+        user=Usuario()
+        user.direccion=data.get('direccion')
+        user.numerodocumento=data.get('numerodocumento')
+        user.telefono=data.get('telefono')
+        user.tipodocumento=data.get('tipodocumento')
+        
+        usuario=UpdateProfileUser(user,user_id)
+        return jsonify({'success': True})
+    except Exception as e:
+        import traceback
+        traceback.print_exc()
+        return jsonify({'error': str(e)}), 500
+        
+        
 
 
 if __name__ == "__main__":

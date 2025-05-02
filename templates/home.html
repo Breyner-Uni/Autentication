@@ -12,5 +12,77 @@
     <h1 id="profileDropDown">Welcome Guest</h1>
     <p><a href="/login" id="qsLoginBtn">Login</a></p>
     {% endif %}
+
+
+    <h2>Actualizar información</h2>
+    <form id="updateForm">
+      <div class="form-group">
+        <label for="direccion">Dirección:</label>
+        <input type="text" id="direccion" name="direccion">
+      </div>
+      <div class="form-group">
+        <label for="numerodocumento">Número Documento:</label>
+        <input type="number" id="numerodocumento" name="numerodocumento">
+      </div>
+      <div class="form-group">
+        <label for="telefono">Teléfono:</label>
+        <input type="text" id="telefono" name="telefono">
+      </div>
+      <div class="form-group">
+        <label for="tipodocumento">Tipo Documento:</label>
+        <input type="text" id="tipodocumento" name="tipodocumento">
+      </div>
+      <button type="submit">Actualizar</button>
+    </form>
+
+    <div id="userInfoUpdate"></div>
+
+    <script>
+      document.getElementById('updateForm').addEventListener('submit', async function(e) {
+        e.preventDefault();
+        
+        const userData = {
+          direccion: document.getElementById('direccion').value,
+          numerodocumento: document.getElementById('numerodocumento').value,
+          telefono: document.getElementById('telefono').value,
+          tipodocumento: document.getElementById('tipodocumento').value
+        };
+        
+        try {
+          const response = await fetch('/updateprofile', {
+            method: 'PATCH',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(userData)
+          });
+          
+          const result = await response.json();
+          if (response.ok) {
+            alert('Usuario actualizado correctamente');
+
+            const user=result.user_data
+            const metadata=user.user_metadata
+            const container=document.getElementById("userInfoUpdate")
+
+            container.innerHTML = `
+            <h3>Información actualizada:</h3>
+            <ul>
+                <li><strong>Dirección:</strong> ${metadata.direccion || ''}</li>
+                <li><strong>Número Documento:</strong> ${metadata.numerodocumento || ''}</li>
+                <li><strong>Teléfono:</strong> ${metadata.telefono || ''}</li>
+                <li><strong>Tipo Documento:</strong> ${metadata.tipodocumento || ''}</li>
+            </ul>
+            `;
+             // Recargar para ver los cambios
+          } else {
+            throw new Error(result.error || 'Error al actualizar');
+          }
+        } catch (error) {
+          alert(error.message);
+        }
+      });
+    </script>
+    
   </body>
 </html>
