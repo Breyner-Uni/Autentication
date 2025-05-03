@@ -19,7 +19,7 @@ namespace SampleMvcApp.Service
 
         public async Task<string> GetErrorMessage()
         {
-            if (Error)
+            if (!Error)
             {
                 return null;
             }
@@ -42,7 +42,7 @@ namespace SampleMvcApp.Service
                 return await Httpresponsemessage.Content.ReadAsStringAsync();
             }
 
-            return await Httpresponsemessage.Content.ReadAsStringAsync();
+            return "ha ocurrido un error inesperado";
         }
     }
 }

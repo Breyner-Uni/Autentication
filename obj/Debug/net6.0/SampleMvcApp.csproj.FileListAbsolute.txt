@@ -37,3 +37,4 @@ C:\Users\Walter Gutierrez\OneDrive\Escritorio\Taller3ServiceWeb\obj\Debug\net6.0
 C:\Users\Walter Gutierrez\OneDrive\Escritorio\Taller3ServiceWeb\obj\Debug\net6.0\SampleMvcApp.pdb
 C:\Users\Walter Gutierrez\OneDrive\Escritorio\Taller3ServiceWeb\obj\Debug\net6.0\SampleMvcApp.genruntimeconfig.cache
 C:\Users\Walter Gutierrez\OneDrive\Escritorio\Taller3ServiceWeb\obj\Debug\net6.0\ref\SampleMvcApp.dll
+C:\Users\Walter Gutierrez\OneDrive\Escritorio\Taller3ServiceWeb\obj\Debug\net6.0\SampleMvcApp.sourcelink.json

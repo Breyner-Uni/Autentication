@@ -1,0 +1,53 @@
+﻿@model SampleMvcApp.ViewModels.UserProfile
+@{
+    ViewBag.Title = "Editar Perfil";
+}
+
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <h2>Welcome to the Auth0 ASP.NET Core MVC Starter Project</h2>
+        <p>To follow along in building this sample please <a href="https://auth0.com/docs/quickstart/webapp/aspnet-core">refer to the Quickstart</a>.
+        <p>Editar informacion del usuario <a href="../Views/Home/Profile.cshtml">Ingresar</a>  </p>
+
+        <h2>Editar Perfil</h2>
+
+        <form asp-action="updateprofile" asp-controller="Usuario" method="post">
+            <div>
+                <label>Tipo Documento:</label>
+                <input asp-for="TipoDocumento" class="form-control" />
+            </div>
+            <div>
+                <label>Número Documento:</label>
+                <input asp-for="NumeroDocumento" class="form-control" />
+            </div>
+            <div>
+                <label>Dirección:</label>
+                <input asp-for="Direccion" class="form-control" />
+            </div>
+            <div>
+                <label>Teléfono:</label>
+                <input asp-for="Telefono" class="form-control" />
+            </div>
+            <button type="submit" class="btn btn-primary">Guardar cambios</button>
+        </form>
+
+            @if (ViewBag.Success != null)
+
+            {
+            <p style="color:green">Perfil actualizado correctamente</p>
+            }
+            @if (ViewBag.Error != null)
+
+            {
+            <p style="color:red">@ViewBag.Error</p>
+            }
+
+
+
+    </div>
+</div>

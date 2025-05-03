@@ -27,21 +27,23 @@ namespace SampleMvcApp.Service
         {
             PropertyNameCaseInsensitive = true
         };
-        public async Task<HttpResponseWrapper<object>> UpdateProfile<T>(string url, T model)
+        public async Task<HttpResponseWrapper<object>> UpdateProfile(string url, UserProfile model)
         {
             try
             {
-
                 await TokenHeader();
+
+                if (model == null)
+                    throw new ArgumentNullException(nameof(model), "El modelo recibido es nulo");
 
                 var user_metadata = new
                 {
-                    usermetadata = new
+                    user_metadata = new
                     {
-                        tipodocumento = (model as UserProfile).TipoDocumento,
-                        numerodocumento = (model as UserProfile).NumeroDocumento,
-                        direccion = (model as UserProfile).Direccion,
-                        telefono=(model as UserProfile).Telefono
+                        tipodocumento = model.TipoDocumento,
+                        numerodocumento = model.NumeroDocumento,
+                        direccion = model.Direccion,
+                        telefono = model.Telefono
                     }
                 };
 
@@ -49,14 +51,23 @@ namespace SampleMvcApp.Service
                 var MessageContent = new StringContent(MessageBody, Encoding.UTF8, "application/json");
                 var responsehttp = await httpClient.PatchAsync(url, MessageContent);
                 var content = await responsehttp.Content.ReadAsStringAsync();
+
                 return new HttpResponseWrapper<object>(content, !responsehttp.IsSuccessStatusCode, responsehttp);
             }
-            catch(Exception e)
+            catch (Exception e)
             {
-                Console.WriteLine($"Error al conseguir el token {e.Message}");
-                return null;
+                Console.WriteLine($"Error al actualizar el perfil: {e.Message}");
+                // Retornar un wrapper con error para evitar null
+                return new HttpResponseWrapper<object>(
+                    default,
+                    true,
+                    new HttpResponseMessage
+                    {
+                        StatusCode = System.Net.HttpStatusCode.InternalServerError,
+                        Content = new StringContent($"Excepción: {e.Message}")
+                    });
             }
-            
+
         }
 
 
@@ -69,6 +80,8 @@ namespace SampleMvcApp.Service
                 {
                     Console.WriteLine("No se ha podido obtener el token de oauth0");
                 }
+
+                Console.WriteLine(accesstoken);
 
                 httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", accesstoken.Trim('"'));
 

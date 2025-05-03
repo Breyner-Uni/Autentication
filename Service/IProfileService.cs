@@ -1,9 +1,10 @@
-﻿using System.Threading.Tasks;
+﻿using SampleMvcApp.ViewModels;
+using System.Threading.Tasks;
 
 namespace SampleMvcApp.Service
 {
     public interface IProfileService
     {
-        Task<HttpResponseWrapper<object>> UpdateProfile<T>(string url, T model);
+        Task<HttpResponseWrapper<object>> UpdateProfile(string url, UserProfile userprofile);
     }
 }

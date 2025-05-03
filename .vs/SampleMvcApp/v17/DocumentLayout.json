@@ -3,48 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Walter Gutierrez\\OneDrive\\Escritorio\\Taller3ServiceWeb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FF9D1786-4670-454D-96D1-92C366FF760E}|SampleMvcApp.csproj|c:\\users\\walter gutierrez\\onedrive\\escritorio\\taller3serviceweb\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF9D1786-4670-454D-96D1-92C366FF760E}|SampleMvcApp.csproj|solutionrelative:controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF9D1786-4670-454D-96D1-92C366FF760E}|SampleMvcApp.csproj|c:\\users\\walter gutierrez\\onedrive\\escritorio\\taller3serviceweb\\views\\usuario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FF9D1786-4670-454D-96D1-92C366FF760E}|SampleMvcApp.csproj|solutionrelative:views\\usuario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FF9D1786-4670-454D-96D1-92C366FF760E}|SampleMvcApp.csproj|c:\\users\\walter gutierrez\\onedrive\\escritorio\\taller3serviceweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FF9D1786-4670-454D-96D1-92C366FF760E}|SampleMvcApp.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF9D1786-4670-454D-96D1-92C366FF760E}|SampleMvcApp.csproj|c:\\users\\walter gutierrez\\onedrive\\escritorio\\taller3serviceweb\\views\\home\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FF9D1786-4670-454D-96D1-92C366FF760E}|SampleMvcApp.csproj|solutionrelative:views\\home\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF9D1786-4670-454D-96D1-92C366FF760E}|SampleMvcApp.csproj|c:\\users\\walter gutierrez\\onedrive\\escritorio\\taller3serviceweb\\viewmodels\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF9D1786-4670-454D-96D1-92C366FF760E}|SampleMvcApp.csproj|solutionrelative:viewmodels\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF9D1786-4670-454D-96D1-92C366FF760E}|SampleMvcApp.csproj|c:\\users\\walter gutierrez\\onedrive\\escritorio\\taller3serviceweb\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF9D1786-4670-454D-96D1-92C366FF760E}|SampleMvcApp.csproj|solutionrelative:controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FF9D1786-4670-454D-96D1-92C366FF760E}|SampleMvcApp.csproj|c:\\users\\walter gutierrez\\onedrive\\escritorio\\taller3serviceweb\\service\\profileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF9D1786-4670-454D-96D1-92C366FF760E}|SampleMvcApp.csproj|solutionrelative:service\\profileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF9D1786-4670-454D-96D1-92C366FF760E}|SampleMvcApp.csproj|c:\\users\\walter gutierrez\\onedrive\\escritorio\\taller3serviceweb\\service\\iprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF9D1786-4670-454D-96D1-92C366FF760E}|SampleMvcApp.csproj|solutionrelative:service\\iprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF9D1786-4670-454D-96D1-92C366FF760E}|SampleMvcApp.csproj|c:\\users\\walter gutierrez\\onedrive\\escritorio\\taller3serviceweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF9D1786-4670-454D-96D1-92C366FF760E}|SampleMvcApp.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF9D1786-4670-454D-96D1-92C366FF760E}|SampleMvcApp.csproj|c:\\users\\walter gutierrez\\onedrive\\escritorio\\taller3serviceweb\\service\\httpresponsewrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF9D1786-4670-454D-96D1-92C366FF760E}|SampleMvcApp.csproj|solutionrelative:service\\httpresponsewrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF9D1786-4670-454D-96D1-92C366FF760E}|SampleMvcApp.csproj|c:\\users\\walter gutierrez\\onedrive\\escritorio\\taller3serviceweb\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF9D1786-4670-454D-96D1-92C366FF760E}|SampleMvcApp.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF9D1786-4670-454D-96D1-92C366FF760E}|SampleMvcApp.csproj|c:\\users\\walter gutierrez\\onedrive\\escritorio\\taller3serviceweb\\viewmodels\\userprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF9D1786-4670-454D-96D1-92C366FF760E}|SampleMvcApp.csproj|solutionrelative:viewmodels\\userprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF9D1786-4670-454D-96D1-92C366FF760E}|SampleMvcApp.csproj|c:\\users\\walter gutierrez\\onedrive\\escritorio\\taller3serviceweb\\views\\home\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FF9D1786-4670-454D-96D1-92C366FF760E}|SampleMvcApp.csproj|solutionrelative:views\\home\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FF9D1786-4670-454D-96D1-92C366FF760E}|SampleMvcApp.csproj|c:\\users\\walter gutierrez\\onedrive\\escritorio\\taller3serviceweb\\service\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF9D1786-4670-454D-96D1-92C366FF760E}|SampleMvcApp.csproj|solutionrelative:service\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF9D1786-4670-454D-96D1-92C366FF760E}|SampleMvcApp.csproj|c:\\users\\walter gutierrez\\onedrive\\escritorio\\taller3serviceweb\\service\\iprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF9D1786-4670-454D-96D1-92C366FF760E}|SampleMvcApp.csproj|solutionrelative:service\\iprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF9D1786-4670-454D-96D1-92C366FF760E}|SampleMvcApp.csproj|c:\\users\\walter gutierrez\\onedrive\\escritorio\\taller3serviceweb\\service\\httpresponsewrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF9D1786-4670-454D-96D1-92C366FF760E}|SampleMvcApp.csproj|solutionrelative:service\\httpresponsewrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FF9D1786-4670-454D-96D1-92C366FF760E}|SampleMvcApp.csproj|c:\\users\\walter gutierrez\\onedrive\\escritorio\\taller3serviceweb\\service\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -53,6 +41,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{FF9D1786-4670-454D-96D1-92C366FF760E}|SampleMvcApp.csproj|c:\\users\\walter gutierrez\\onedrive\\escritorio\\taller3serviceweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF9D1786-4670-454D-96D1-92C366FF760E}|SampleMvcApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF9D1786-4670-454D-96D1-92C366FF760E}|SampleMvcApp.csproj|c:\\users\\walter gutierrez\\onedrive\\escritorio\\taller3serviceweb\\viewmodels\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF9D1786-4670-454D-96D1-92C366FF760E}|SampleMvcApp.csproj|solutionrelative:viewmodels\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF9D1786-4670-454D-96D1-92C366FF760E}|SampleMvcApp.csproj|c:\\users\\walter gutierrez\\onedrive\\escritorio\\taller3serviceweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF9D1786-4670-454D-96D1-92C366FF760E}|SampleMvcApp.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF9D1786-4670-454D-96D1-92C366FF760E}|SampleMvcApp.csproj|c:\\users\\walter gutierrez\\onedrive\\escritorio\\taller3serviceweb\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF9D1786-4670-454D-96D1-92C366FF760E}|SampleMvcApp.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF9D1786-4670-454D-96D1-92C366FF760E}|SampleMvcApp.csproj|c:\\users\\walter gutierrez\\onedrive\\escritorio\\taller3serviceweb\\viewmodels\\userprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF9D1786-4670-454D-96D1-92C366FF760E}|SampleMvcApp.csproj|solutionrelative:viewmodels\\userprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FF9D1786-4670-454D-96D1-92C366FF760E}|SampleMvcApp.csproj|c:\\users\\walter gutierrez\\onedrive\\escritorio\\taller3serviceweb\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
@@ -127,63 +131,28 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\Users\\Walter Gutierrez\\OneDrive\\Escritorio\\Taller3ServiceWeb\\Controllers\\UsuarioController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UsuarioController.cs",
-              "ToolTip": "C:\\Users\\Walter Gutierrez\\OneDrive\\Escritorio\\Taller3ServiceWeb\\Controllers\\UsuarioController.cs",
-              "RelativeToolTip": "Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAgwCAAAABcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T19:28:01.144Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Walter Gutierrez\\OneDrive\\Escritorio\\Taller3ServiceWeb\\Views\\Usuario\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Usuario\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Walter Gutierrez\\OneDrive\\Escritorio\\Taller3ServiceWeb\\Views\\Usuario\\Index.cshtml",
+              "RelativeToolTip": "Views\\Usuario\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-02T02:10:23.293Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Walter Gutierrez\\OneDrive\\Escritorio\\Taller3ServiceWeb\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Walter Gutierrez\\OneDrive\\Escritorio\\Taller3ServiceWeb\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T13:08:35.132Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "IProfileService.cs",
-              "DocumentMoniker": "C:\\Users\\Walter Gutierrez\\OneDrive\\Escritorio\\Taller3ServiceWeb\\Service\\IProfileService.cs",
-              "RelativeDocumentMoniker": "Service\\IProfileService.cs",
-              "ToolTip": "C:\\Users\\Walter Gutierrez\\OneDrive\\Escritorio\\Taller3ServiceWeb\\Service\\IProfileService.cs",
-              "RelativeToolTip": "Service\\IProfileService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAqAAAAAAAAAA==",
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\Walter Gutierrez\\OneDrive\\Escritorio\\Taller3ServiceWeb\\Service\\TokenService.cs",
+              "RelativeDocumentMoniker": "Service\\TokenService.cs",
+              "ToolTip": "C:\\Users\\Walter Gutierrez\\OneDrive\\Escritorio\\Taller3ServiceWeb\\Service\\TokenService.cs",
+              "RelativeToolTip": "Service\\TokenService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAowBgAAABoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T14:10:32.121Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProfileService.cs",
-              "DocumentMoniker": "C:\\Users\\Walter Gutierrez\\OneDrive\\Escritorio\\Taller3ServiceWeb\\Service\\ProfileService.cs",
-              "RelativeDocumentMoniker": "Service\\ProfileService.cs",
-              "ToolTip": "C:\\Users\\Walter Gutierrez\\OneDrive\\Escritorio\\Taller3ServiceWeb\\Service\\ProfileService.cs",
-              "RelativeToolTip": "Service\\ProfileService.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAowFQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T14:16:44.202Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Profile.cshtml",
-              "DocumentMoniker": "C:\\Users\\Walter Gutierrez\\OneDrive\\Escritorio\\Taller3ServiceWeb\\Views\\Home\\Profile.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Profile.cshtml",
-              "ToolTip": "C:\\Users\\Walter Gutierrez\\OneDrive\\Escritorio\\Taller3ServiceWeb\\Views\\Home\\Profile.cshtml",
-              "RelativeToolTip": "Views\\Home\\Profile.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T14:09:26.627Z"
+              "WhenOpened": "2025-05-01T14:24:53.601Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -193,21 +162,62 @@
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\Walter Gutierrez\\OneDrive\\Escritorio\\Taller3ServiceWeb\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABTAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAswDUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T13:09:13.915Z"
+              "WhenOpened": "2025-05-01T13:09:13.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IProfileService.cs",
+              "DocumentMoniker": "C:\\Users\\Walter Gutierrez\\OneDrive\\Escritorio\\Taller3ServiceWeb\\Service\\IProfileService.cs",
+              "RelativeDocumentMoniker": "Service\\IProfileService.cs",
+              "ToolTip": "C:\\Users\\Walter Gutierrez\\OneDrive\\Escritorio\\Taller3ServiceWeb\\Service\\IProfileService.cs",
+              "RelativeToolTip": "Service\\IProfileService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T14:10:32.121Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "UserProfile.cs",
-              "DocumentMoniker": "C:\\Users\\Walter Gutierrez\\OneDrive\\Escritorio\\Taller3ServiceWeb\\ViewModels\\UserProfile.cs",
-              "RelativeDocumentMoniker": "ViewModels\\UserProfile.cs",
-              "ToolTip": "C:\\Users\\Walter Gutierrez\\OneDrive\\Escritorio\\Taller3ServiceWeb\\ViewModels\\UserProfile.cs",
-              "RelativeToolTip": "ViewModels\\UserProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Title": "ProfileService.cs",
+              "DocumentMoniker": "C:\\Users\\Walter Gutierrez\\OneDrive\\Escritorio\\Taller3ServiceWeb\\Service\\ProfileService.cs",
+              "RelativeDocumentMoniker": "Service\\ProfileService.cs",
+              "ToolTip": "C:\\Users\\Walter Gutierrez\\OneDrive\\Escritorio\\Taller3ServiceWeb\\Service\\ProfileService.cs",
+              "RelativeToolTip": "Service\\ProfileService.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAowCgAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T14:00:30.004Z"
+              "WhenOpened": "2025-05-01T14:16:44.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\Walter Gutierrez\\OneDrive\\Escritorio\\Taller3ServiceWeb\\Views\\Home\\Profile.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Profile.cshtml",
+              "ToolTip": "C:\\Users\\Walter Gutierrez\\OneDrive\\Escritorio\\Taller3ServiceWeb\\Views\\Home\\Profile.cshtml",
+              "RelativeToolTip": "Views\\Home\\Profile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T14:09:26.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\Walter Gutierrez\\OneDrive\\Escritorio\\Taller3ServiceWeb\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\Walter Gutierrez\\OneDrive\\Escritorio\\Taller3ServiceWeb\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAwwD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T19:28:01.144Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -217,25 +227,14 @@
               "RelativeDocumentMoniker": "Service\\HttpResponseWrapper.cs",
               "ToolTip": "C:\\Users\\Walter Gutierrez\\OneDrive\\Escritorio\\Taller3ServiceWeb\\Service\\HttpResponseWrapper.cs",
               "RelativeToolTip": "Service\\HttpResponseWrapper.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAwwDAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T14:11:50.059Z"
+              "WhenOpened": "2025-05-01T14:11:50.059Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "TokenService.cs",
-              "DocumentMoniker": "C:\\Users\\Walter Gutierrez\\OneDrive\\Escritorio\\Taller3ServiceWeb\\Service\\TokenService.cs",
-              "RelativeDocumentMoniker": "Service\\TokenService.cs",
-              "ToolTip": "C:\\Users\\Walter Gutierrez\\OneDrive\\Escritorio\\Taller3ServiceWeb\\Service\\TokenService.cs",
-              "RelativeToolTip": "Service\\TokenService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T14:24:53.601Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 8,
               "Title": "ITokenService.cs",
               "DocumentMoniker": "C:\\Users\\Walter Gutierrez\\OneDrive\\Escritorio\\Taller3ServiceWeb\\Service\\ITokenService.cs",
               "RelativeDocumentMoniker": "Service\\ITokenService.cs",
@@ -247,7 +246,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Walter Gutierrez\\OneDrive\\Escritorio\\Taller3ServiceWeb\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Walter Gutierrez\\OneDrive\\Escritorio\\Taller3ServiceWeb\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAwwBoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T13:15:06.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Walter Gutierrez\\OneDrive\\Escritorio\\Taller3ServiceWeb\\ViewModels\\UserProfile.cs",
+              "RelativeDocumentMoniker": "ViewModels\\UserProfile.cs",
+              "ToolTip": "C:\\Users\\Walter Gutierrez\\OneDrive\\Escritorio\\Taller3ServiceWeb\\ViewModels\\UserProfile.cs",
+              "RelativeToolTip": "ViewModels\\UserProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T14:00:30.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Walter Gutierrez\\OneDrive\\Escritorio\\Taller3ServiceWeb\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Walter Gutierrez\\OneDrive\\Escritorio\\Taller3ServiceWeb\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T13:08:35.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\Walter Gutierrez\\OneDrive\\Escritorio\\Taller3ServiceWeb\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
@@ -259,7 +294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "UserProfileViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Walter Gutierrez\\OneDrive\\Escritorio\\Taller3ServiceWeb\\ViewModels\\UserProfileViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\UserProfileViewModel.cs",
@@ -271,19 +306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Walter Gutierrez\\OneDrive\\Escritorio\\Taller3ServiceWeb\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Walter Gutierrez\\OneDrive\\Escritorio\\Taller3ServiceWeb\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T13:15:06.998Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "web.config",
               "DocumentMoniker": "C:\\Users\\Walter Gutierrez\\OneDrive\\Escritorio\\Taller3ServiceWeb\\web.config",
               "RelativeDocumentMoniker": "web.config",
@@ -295,7 +318,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Users\\Walter Gutierrez\\OneDrive\\Escritorio\\Taller3ServiceWeb\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
@@ -307,7 +330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Walter Gutierrez\\OneDrive\\Escritorio\\Taller3ServiceWeb\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -319,7 +342,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "_CookieConsentPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\Walter Gutierrez\\OneDrive\\Escritorio\\Taller3ServiceWeb\\Views\\Shared\\_CookieConsentPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_CookieConsentPartial.cshtml",
@@ -331,7 +354,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Claims.cshtml",
               "DocumentMoniker": "C:\\Users\\Walter Gutierrez\\OneDrive\\Escritorio\\Taller3ServiceWeb\\Views\\Account\\Claims.cshtml",
               "RelativeDocumentMoniker": "Views\\Account\\Claims.cshtml",
@@ -343,7 +366,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Profile.cshtml",
               "DocumentMoniker": "C:\\Users\\Walter Gutierrez\\OneDrive\\Escritorio\\Taller3ServiceWeb\\Views\\Account\\Profile.cshtml",
               "RelativeDocumentMoniker": "Views\\Account\\Profile.cshtml",
@@ -355,7 +378,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "AccessDenied.cshtml",
               "DocumentMoniker": "C:\\Users\\Walter Gutierrez\\OneDrive\\Escritorio\\Taller3ServiceWeb\\Views\\Account\\AccessDenied.cshtml",
               "RelativeDocumentMoniker": "Views\\Account\\AccessDenied.cshtml",
@@ -367,7 +390,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\Walter Gutierrez\\OneDrive\\Escritorio\\Taller3ServiceWeb\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
@@ -379,7 +402,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\Walter Gutierrez\\OneDrive\\Escritorio\\Taller3ServiceWeb\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
@@ -391,7 +414,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "SameSiteServiceCollectionExtensions.cs",
               "DocumentMoniker": "C:\\Users\\Walter Gutierrez\\OneDrive\\Escritorio\\Taller3ServiceWeb\\Support\\SameSiteServiceCollectionExtensions.cs",
               "RelativeDocumentMoniker": "Support\\SameSiteServiceCollectionExtensions.cs",

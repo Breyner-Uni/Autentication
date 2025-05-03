@@ -29,24 +29,30 @@ namespace SampleMvcApp.Controllers
         [HttpPost]
         public async Task<IActionResult> updateprofile(UserProfile user)
         {
-            var userid= "auth0|6813743ec7dacf733071e656";
+            var userid = "auth0|6813743ec7dacf733071e656";
             string url = $"https://dev-kw0pbr6x4dqrvm5g.us.auth0.com/api/v2/users/{userid}";
 
             var response = await profile.UpdateProfile(url, user);
             if (!response.Error)
             {
                 ViewBag.Success = true;
-                throw new Exception("Se ha actualizado");
+                return View("Index",user);
+                //throw new Exception("Si acaba aqui es porque funciona");
+                
             }
+
             else
-            
+            {
                 ViewBag.Error = await response.GetErrorMessage();
-                var message=await response.GetErrorMessage();
-                throw new Exception($"Error al actualizar {message}");
+                var message = await response.GetErrorMessage();
+                Console.WriteLine(message);
+                return BadRequest("No se ha logrado agregar nada o actualizar");
+            }
             
+                
 
             
-
+            
         }
 
 
