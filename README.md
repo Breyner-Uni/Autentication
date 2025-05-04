@@ -1,61 +1,50 @@
-# Auth0 Python Web App Sample
+# Authentication Service
 
-This sample demonstrates how to add authentication to a Python web app using Auth0.
+This project is an authentication service designed to handle user login, registration, and session management. It provides a secure and scalable solution for managing user authentication in your applications.
 
-# Running the App
+## Features
+- User registration and login
+- Password hashing for security
+- Token-based authentication
+- Session management
 
-To run the sample, make sure you have `python3` and `pip` installed.
+## How to Use
 
-Rename `.env.example` to `.env` and populate it with the client ID, domain, secret, callback URL and audience for your
-Auth0 app. If you are not implementing any API you can use `https://YOUR_DOMAIN.auth0.com/userinfo` as the audience.
-Also, add the callback URL to the settings section of your Auth0 client.
+1. Clone the repository:
+    ```bash
+    git clone <repository-url>
+    cd Authentication
+    ```
 
-Register `http://localhost:3000/callback` as `Allowed Callback URLs` and `http://localhost:3000`
-as `Allowed Logout URLs` in your client settings.
+2. Install the required dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-Run `pip install -r requirements.txt` to install the dependencies and run `python server.py`.
-The app will be served at [http://localhost:3000/](http://localhost:3000/).
+3. Edit the .env File:
+    Follow the .env.example and fill with your data
 
-# Running the App with Docker
+4. Access the service at `http://localhost:3000` (or the configured host and port).
 
-To run the sample, make sure you have `docker` installed.
+## Requirements
 
-To run the sample with [Docker](https://www.docker.com/), make sure you have `docker` installed.
+Make sure you have Python 3.8+ installed. Install the dependencies using the following command:
+```bash
+pip install -r requirements.txt
+```
 
-Rename the .env.example file to .env, change the environment variables, and register the URLs as explained [previously](#running-the-app).
+### Environment Variables
 
-Run `sh exec.sh` to build and run the docker image in Linux or run `.\exec.ps1` to build
-and run the docker image on Windows.
+To configure the application, you need to fill in the `.env` file with your own data. Follow these steps:
 
-## What is Auth0?
+1. Visit the [Auth0 official page](https://auth0.com/) and log in to your account.
+2. Navigate to your application settings in the Auth0 dashboard.
+3. Locate the required credentials (e.g., Client ID, Client Secret, Domain, etc.).
+4. Copy the credentials and paste them into the corresponding fields in the `.env` file.
 
-Auth0 helps you to:
+Ensure that the `.env` file is properly configured before running the application. 
 
-* Add authentication with [multiple authentication sources](https://auth0.com/docs/identityproviders),
-either social like **Google, Facebook, Microsoft Account, LinkedIn, GitHub, Twitter, Box, Salesforce, among others**,or
-enterprise identity systems like **Windows Azure AD, Google Apps, Active Directory, ADFS or any SAML Identity Provider**.
-* Add authentication through more traditional **[username/password databases](https://docs.auth0.com/mysql-connection-tutorial)**.
-* Add support for **[linking different user accounts](https://auth0.com/docs/link-accounts)** with the same user.
-* Support for generating signed [JSON Web Tokens](https://auth0.com/docs/jwt) to call your APIs and
-**flow the user identity** securely.
-* Analytics of how, when and where users are logging in.
-* Pull data from other sources and add it to the user profile, through [JavaScript rules](https://auth0.com/docs/rules).
 
-## Create a free account in Auth0
-
-1. Go to [Auth0](https://auth0.com) and click Sign Up.
-2. Use Google, GitHub or Microsoft Account to login.
-
-## Issue Reporting
-
-If you have found a bug or if you have a feature request, please report them at this repository issues section.
-Please do not report security vulnerabilities on the public GitHub issue tracker.
-The [Responsible Disclosure Program](https://auth0.com/whitehat) details the procedure for disclosing security issues.
-
-## Author
-
-[Auth0](https://auth0.com)
-
-## License
-
-This project is licensed under the MIT license. See the [LICENSE](../LICENSE) file for more info.
+## Contributors
+Breyner Felipe Meneses Muñoz
+Walter Ernesto Gutierres londoño
