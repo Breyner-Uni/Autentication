@@ -47,4 +47,5 @@ Ensure that the `.env` file is properly configured before running the applicatio
 
 ## Contributors
 Breyner Felipe Meneses Muñoz
+
 Walter Ernesto Gutierres londoño
