@@ -47,5 +47,11 @@ Ensure that the `.env` file is properly configured before running the applicatio
 
 ## Contributors
 Breyner Felipe Meneses Muñoz
+<a href="https://github.com/BreyMene/">
+<img src="https://contrib.rocks/image?repo=BreyMene/BreyMene" alt="Breyner" />
+</a>
 
 Walter Ernesto Gutierres londoño
+<a href="https://github.com/BreyMene/">
+<img src="https://contrib.rocks/image?repo=Wgutierrezl/Wgutierrezl" alt="Walter" />
+</a>
